@@ -117,7 +117,11 @@ int main() {
 
 
 
-> 注意：C++在创建变量时，必须给变量一个初始值，否则会报错
+> 注意：C++在创建变量时:
+> > 局部变量：局部变量如果没有初始化，它的值是未定义的，可能包含任何垃圾值。  
+> > 静态变量：静态变量如果没有初始化，它会被自动初始化为零。  
+> 
+> 引用变量是一个别名，也就是说，它是某个已存在变量的另一个名字。一旦把引用初始化为某个变量，就可以使用该引用名称或变量名称来指向变量。
 
 
 
@@ -191,11 +195,11 @@ int main() {
 C++关键字如下：
 
 | asm        | do           | if               | return      | typedef  |
-| ---------- | ------------ | ---------------- | ----------- | -------- |
+| ---------- | ------------ |------------------| ----------- | -------- |
 | auto       | double       | inline           | short       | typeid   |
 | bool       | dynamic_cast | int              | signed      | typename |
 | break      | else         | long             | sizeof      | union    |
-| case       | enum         | mutable          | static      | unsigned |
+| case       | enum         | [mutable](https://blog.csdn.net/zengchenAAA/article/details/137885844)      | static      | unsigned |
 | catch      | explicit     | namespace        | static_cast | using    |
 | char       | export       | new              | struct      | virtual  |
 | class      | extern       | operator         | switch      | void     |
