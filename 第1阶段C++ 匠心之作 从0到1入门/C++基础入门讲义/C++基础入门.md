@@ -194,22 +194,22 @@ int main() {
 
 C++关键字如下：
 
-| asm        | do           | if               | return      | typedef  |
-| ---------- | ------------ |------------------| ----------- | -------- |
-| auto       | double       | inline           | short       | typeid   |
-| bool       | dynamic_cast | int              | signed      | typename |
-| break      | else         | long             | sizeof      | union    |
-| case       | enum         | [mutable](https://blog.csdn.net/zengchenAAA/article/details/137885844)      | static      | unsigned |
-| catch      | explicit     | namespace        | static_cast | using    |
-| char       | export       | new              | struct      | virtual  |
-| class      | extern       | operator         | switch      | void     |
-| const      | false        | private          | template    | volatile |
-| const_cast | float        | protected        | this        | wchar_t  |
-| continue   | for          | public           | throw       | while    |
-| default    | friend       | register         | true        |          |
-| delete     | goto         | reinterpret_cast | try         |          |
+| asm        | do           | if                                                                     | return      | typedef                                                                |
+| ---------- | ------------ |------------------------------------------------------------------------| ----------- |------------------------------------------------------------------------|
+| auto       | double       | inline                                                                 | short       | typeid                                                                 |
+| bool       | dynamic_cast | int                                                                    | signed      | typename                                                               |
+| break      | else         | long                                                                   | sizeof      | union                                                                  |
+| case       | enum         | [mutable](https://blog.csdn.net/zengchenAAA/article/details/137885844) | static      | unsigned                                                               |
+| catch      | explicit     | namespace                                                              | static_cast | using                                                                  |
+| char       | export       | new                                                                    | struct      | virtual                                                                |
+| class      | extern       | operator                                                               | switch      | void                                                                   |
+| const      | false        | private                                                                | template    | [volatile](https://blog.csdn.net/qq100440110/article/details/51858626) |
+| const_cast | float        | protected                                                              | this        | [wchar_t](https://blog.csdn.net/qq_41317716/article/details/139693021)                                                            |
+| continue   | for          | public                                                                 | throw       | while                                                                  |
+| default    | friend       | [register](https://blog.csdn.net/hfd2547/article/details/136113233)                                                          | true        |                                                                        |
+| delete     | goto         | reinterpret_cast                                                       | try         |                                                                        |
 
-`提示：在给变量或者常量起名称时候，不要用C++得关键字，否则会产生歧义。`
+`提示：在给变量或者常量起名称时候，不要用C++的关键字，否则会产生歧义。`
 
 
 
